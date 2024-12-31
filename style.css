@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans';
+} 
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #dadada;
+}
+#center{
+    position: relative;
+    width: 70%;
+    height: 80%;
+    background-color: blueviolet;
+}
+.imagecontainer{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+   background-color: yellow;
+
+}
